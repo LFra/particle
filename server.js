@@ -6,14 +6,15 @@ const five = require('johnny-five')
 const Particle = require('particle-io')
 const chalk = require('chalk')
 const log = console.log
+const auth = require('./auth')
 // const webpackConfig = require('./webpack.dev')
 const io = require('socket.io')(server)
 // Body parser, to access req.body
 
 const board = new five.Board({
   io: new Particle({
-    token: `ff974afaac418b13bd638144288cc1a047bfd68c`,
-    deviceId: `220026000447343233323032`
+    token: auth.token,
+    deviceId: auth.deviceId
   })
 })
 
@@ -56,11 +57,11 @@ io.on('connection', (socket) => {
   socket.on('message', (x, id) => {
     if (x === 'on') {
       pins[id].led.on()
-      log( chalk.gray('Turning on'), chalk.bgCyan.bold(' ' + id + ' '));
+      log( chalk.gray('Turning on'), chalk.bgCyan.bold(' ' + id + ' '))
     }
     if (x === 'off') {
       pins[id].led.off()
-      log( chalk.gray('Turning of'), chalk.bgMagenta.bold(' ' + id + ' '));;
+      log( chalk.gray('Turning of'), chalk.bgMagenta.bold(' ' + id + ' '))
     }
   })
 })
