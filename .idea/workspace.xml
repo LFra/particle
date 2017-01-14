@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8dea7436-47ed-44fb-9eb9-787c7d6c3e12" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuxt.config.js" afterPath="$PROJECT_DIR$/nuxt.config.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,9 +21,21 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1608">
-              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            <state relative-caret-position="513">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#48#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,31 +70,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nuxt.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuxt.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socket.io.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/socket.io.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nuxt.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nuxt.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.nuxt/index.js">
+      <file leaf-file-name="socket.io.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/socket.io.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -103,35 +118,9 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding>
-                  <marker date="1484307030000" expanded="true" signature="2136:2174" ph="..." />
-                  <marker date="1484307030000" expanded="true" signature="2276:2439" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="2288:2312" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="2328:2406" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="2367:2402" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="2420:2436" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="3240:3337" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="3285:3335" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="3502:3966" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="3533:3763" ph="{&quot;credentials&quot;: 'same-origin'...}" />
-                  <marker date="1484307030000" expanded="true" signature="3645:3693" ph="{&quot;Content-Type&quot;: 'application/json'...}" />
-                  <marker date="1484307030000" expanded="true" signature="3720:3758" ph="{&quot;username&quot;: username...}" />
-                  <marker date="1484307030000" expanded="true" signature="3782:3901" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="3812:3860" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="3866:3897" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="3925:3963" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="4019:4205" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="4051:4152" ph="{&quot;credentials&quot;: 'same-origin'...}" />
-                  <marker date="1484307030000" expanded="true" signature="4168:4202" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="4490:4606" ph="..." />
-                  <marker date="1484307030000" expanded="true" signature="4498:4594" ph="..." />
-                  <marker date="1484307030000" expanded="true" signature="4616:4820" ph="..." />
-                  <marker date="1484307030000" expanded="true" signature="4633:4811" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="4738:4809" ph="{...}" />
-                  <marker date="1484307030000" expanded="true" signature="4771:4805" ph="{...}" />
-                </folding>
+              <first_editor relative-caret-position="480">
+                <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -169,13 +158,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/store/index.js" />
-        <option value="$PROJECT_DIR$/nuxt.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/pages/index.vue" />
         <option value="$PROJECT_DIR$/pages/secret.vue" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/pages/LEDSetup.vue" />
         <option value="$PROJECT_DIR$/plugins/socket.io.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/auth.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/nuxt.config.js" />
       </list>
     </option>
   </component>
@@ -244,6 +235,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="particle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="particle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="particle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="particle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="particle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -668,12 +687,20 @@
       <option name="presentableId" value="Default" />
       <updated>1484341383664</updated>
       <workItem from="1484341386756" duration="11647000" />
-      <workItem from="1484396122858" duration="3801000" />
+      <workItem from="1484396122858" duration="4628000" />
     </task>
+    <task id="LOCAL-00001" summary="Update README">
+      <created>1484403681829</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1484403681829</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15448000" />
+    <option name="totallyTimeSpent" value="16275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1733" y="23" width="1707" height="1413" extended-state="0" />
@@ -682,6 +709,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -734,12 +762,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/server.js</url>
-          <line>50</line>
+          <line>51</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -775,24 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuxt.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.nuxt/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -808,43 +822,6 @@
           <folding>
             <marker date="1484397583000" expanded="true" signature="66:414" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1484307030000" expanded="true" signature="2136:2174" ph="..." />
-              <marker date="1484307030000" expanded="true" signature="2276:2439" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="2288:2312" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="2328:2406" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="2367:2402" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="2420:2436" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="3240:3337" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="3285:3335" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="3502:3966" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="3533:3763" ph="{&quot;credentials&quot;: 'same-origin'...}" />
-              <marker date="1484307030000" expanded="true" signature="3645:3693" ph="{&quot;Content-Type&quot;: 'application/json'...}" />
-              <marker date="1484307030000" expanded="true" signature="3720:3758" ph="{&quot;username&quot;: username...}" />
-              <marker date="1484307030000" expanded="true" signature="3782:3901" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="3812:3860" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="3866:3897" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="3925:3963" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="4019:4205" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="4051:4152" ph="{&quot;credentials&quot;: 'same-origin'...}" />
-              <marker date="1484307030000" expanded="true" signature="4168:4202" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="4490:4606" ph="..." />
-              <marker date="1484307030000" expanded="true" signature="4498:4594" ph="..." />
-              <marker date="1484307030000" expanded="true" signature="4616:4820" ph="..." />
-              <marker date="1484307030000" expanded="true" signature="4633:4811" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="4738:4809" ph="{...}" />
-              <marker date="1484307030000" expanded="true" signature="4771:4805" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -872,14 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -888,10 +857,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/socket.io.js">
+    <entry file="file://$PROJECT_DIR$/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/socket.io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuxt.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
           <folding />
         </state>
       </provider>
